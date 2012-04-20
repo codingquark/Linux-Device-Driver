@@ -1,0 +1,1 @@
+cmd_/home/Dhavan/Documents/Linux-Device-Driver-USB-/nulldriver1/nulldriver1.ko := cp /home/Dhavan/Documents/Linux-Device-Driver-USB-/nulldriver1/nulldriver1.ko.unsigned /home/Dhavan/Documents/Linux-Device-Driver-USB-/nulldriver1/nulldriver1.ko
