@@ -18,6 +18,10 @@ static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
 	{ 0x14522340, "module_layout" },
+	{ 0x6980fe91, "param_get_int" },
+	{ 0xff964b25, "param_set_int" },
+	{ 0x41344088, "param_get_charp" },
+	{ 0x6ad065f4, "param_set_charp" },
 	{ 0xea147363, "printk" },
 	{ 0xb4390f9a, "mcount" },
 };
@@ -28,7 +32,7 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "7D37F11FAE8E60A48A7DE1C");
+MODULE_INFO(srcversion, "B4C44AE11213024CC1B5A52");
 
 static const struct rheldata _rheldata __used
 __attribute__((section(".rheldata"))) = {

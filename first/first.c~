@@ -17,8 +17,8 @@ static int __init first_init(void) /*constructor*/
 	for(i = 1; i <= howmany; i++)
 	{
 		printk(KERN_INFO "Hello, %s", whom);
+		return 0;
 	}
-	return 0;
 }
 
 static void __exit first_exit(void) /*destructor*/
