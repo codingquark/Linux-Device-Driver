@@ -1,0 +1,4 @@
+Added another example with memory_chrdev directory.
+However, the example does NOT create nodes in /dev/ It has to be done manually.
+And, don't try to write anything to the device files. It might show unexpected results. In my case, it hangs up the whole system.
+Logically, this behavior is normal. Please refer to the source code to understand why.
