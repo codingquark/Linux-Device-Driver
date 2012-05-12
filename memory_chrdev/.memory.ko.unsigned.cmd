@@ -1,0 +1,1 @@
+cmd_/home/Dhavan/Documents/devwork/memory_chrdev/memory.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-220.7.1.el6.x86_64/scripts/module-common.lds --build-id -o /home/Dhavan/Documents/devwork/memory_chrdev/memory.ko.unsigned /home/Dhavan/Documents/devwork/memory_chrdev/memory.o /home/Dhavan/Documents/devwork/memory_chrdev/memory.mod.o 
